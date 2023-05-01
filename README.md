@@ -1,9 +1,6 @@
 # CSS | Clone Slack
 
-<details>
-  <summary>
-   <h2>Learning Goals</h2>
-  </summary>
+## Learning Goals
 
   This exercise allows you to practice and apply the concepts and techniques we have been working at the bootcamp
 
