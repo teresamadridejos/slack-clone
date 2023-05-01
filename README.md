@@ -1,6 +1,9 @@
 # CSS | Clone Slack
 
-## Learning Goals
+<details>
+  <summary>
+   <h2>Learning Goals</h2>
+  </summary>
 
   This exercise allows you to practice and apply the concepts and techniques we have been working at the bootcamp
 
@@ -49,7 +52,8 @@ The `starter_code` folder contains all the files you'll need. The `images` folde
 
 During each iteration, the first step you should do is to inspect the provided screenshots. These are included in each iteration, along with a preview of the final result. Use these as a starting point for implementing your styles.
 
-### Iteration 0 | Introduction to Figma
+
+## Iteration 0 | Introduction to Figma
 
 The first step during every iteration will be to inspect the design files. These were created using Figma and are usually handed off to developers by designers. [Figma](https://www.figma.com/) is a web-based UI (User Interface) design tool used for creating design prototypes for websites and applications.
 
@@ -60,6 +64,8 @@ When you begin working as a developer, your team will likely use Figma to hand o
 - [What is Figma?](https://www.youtube.com/watch?v=_d8GG2QZYAM)
 - [Figma for Frontend developers [ in 5 minutes ]](https://www.youtube.com/watch?v=hbN9RGcQFNU)
 
+-->
+
 ----
 
 ### Iteration 1 | Mobile Screens (width < 768px)
@@ -68,15 +74,24 @@ Mobile first, right? :wink:
 
 We will start by focusing on the styles for mobile screens first! :iphone: Oh! Remember to use **Grid or Flex**, whatever you feel comfortable, to create the layout and display the content in rows or columns from the start. You'll be working on adapting the layout to different screen sizes in the following iterations, so it's essential that you start using Flexbox from beginning to end!
 
+
+
+<br>
+
 When done, your page should look like this: [Preview - Mobile](https://www.figma.com/proto/k77VYVA70WcPYRLvg4QmIf/LAB-CSS-Slack-Clone?node-id=68%3A2762&scaling=scale-down&page-id=68%3A2761&starting-point-node-id=68%3A2762&show-proto-sidebar=1&hide-ui=1)
+
+<br>
 
 Use the following page screenshot as the guide:
 
->Screenshot - Mobile Screens
-  ![](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m1/lab-flexbox-slack/Slack+Home+Page+-+420px.png)
+<details>
+  <summary>Screenshot - Mobile Screens</summary>
+  <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m1/lab-flexbox-slack/Slack+Home+Page+-+420px.png" width="200px"/>
+  <br/>
 
 
   [Back to top](#iteration-1--mobile-screens-width--768px)
+</details>
 
 
 <!--
