@@ -15,6 +15,7 @@
   - Use the CSS `position` property to position elements on a webpage.
   - Display images on a webpage and make them responsive according to the viewport size.
   - Submit completed work using Git and GitHub by creating a Pull Request.
+</details>
 
 ## Introduction
 
