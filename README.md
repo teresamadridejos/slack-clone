@@ -1,25 +1,23 @@
-![Ironhack logo](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
-
-# CSS | Slack clone with Flexbox
+# CSS | Clone Slack
 
 <details>
   <summary>
    <h2>Learning Goals</h2>
   </summary>
 
-  This exercise allows you to practice and apply the concepts and techniques taught in class. 
+  This exercise allows you to practice and apply the concepts and techniques taught in class.
 
   Upon completion of this exercise, you will be able to:
 
   - Develop a fully responsive webpage using provided designs as a guide.
   - Use CSS *media queries* to adapt the page layout to different screen sizes.
-  - Use *Flexbox* to layout and position elements on a webpage dynamically as either rows or columns.
+  - Use grid and flex to layout and position elements on a webpage dynamically as either rows or columns.
   - Use the CSS `position` property to position elements on a webpage.
   - Display images on a webpage and make them responsive according to the viewport size.
   - Submit completed work using Git and GitHub by creating a Pull Request.
 
   <br>
-  <hr> 
+  <hr>
 
 </details>
 
@@ -30,7 +28,7 @@
 Slack app is used in daily communications within different teams in companies, but today we will be focusing on their landing page. In today's lab, we'll recreate Slack's landing page while ensuring it's responsive and adapts well to different screens. You can see the web page we will be cloning [here](https://www.figma.com/proto/k77VYVA70WcPYRLvg4QmIf/LAB-CSS-Slack-Clone?node-id=125%3A3&scaling=scale-down-width&page-id=125%3A2&starting-point-node-id=125%3A3&hide-ui=1).
 
 
-The lab's goal is to create a *responsive* landing page using **CSS** and **Flexbox**.
+The lab's goal is to create a *responsive* landing page using **CSS** and **Grid/Flexbox** .
 
 ## Requirements
 
@@ -80,9 +78,9 @@ When you begin working as a developer, your team will likely use Figma to hand o
 
 ### Iteration 1 | Mobile Screens (width < 768px)
 
-Mobile first, right? :wink: 
+Mobile first, right? :wink:
 
-We will start by focusing on the styles for mobile screens first! :iphone: Oh! Remember to use **Flexbox** to create the layout and display the content in rows or columns from the start. You'll be working on adapting the layout to different screen sizes in the following iterations, so it's essential that you start using Flexbox from beginning to end!
+We will start by focusing on the styles for mobile screens first! :iphone: Oh! Remember to use **Grid or Flex**, whatever you feel comfortable, to create the layout and display the content in rows or columns from the start. You'll be working on adapting the layout to different screen sizes in the following iterations, so it's essential that you start using Flexbox from beginning to end!
 
 
 
@@ -257,7 +255,7 @@ You can inspect the page styles here: [Figma file - Large Screens]()
   If you are stuck in your code and don't know how to solve the problem or where to start, you should take a step back and try to form a clear question about the specific issue you are facing. This will help you narrow down the problem and come up with potential solutions.
 
 
-  For example, is it a concept that you don't understand, or are you receiving an error message that you don't know how to fix? It is usually helpful to try to state the problem as clearly as possible, including any error messages you are receiving. This can help you communicate the issue to others and potentially get help from classmates or online resources. 
+  For example, is it a concept that you don't understand, or are you receiving an error message that you don't know how to fix? It is usually helpful to try to state the problem as clearly as possible, including any error messages you are receiving. This can help you communicate the issue to others and potentially get help from classmates or online resources.
 
 
   Once you have a clear understanding of the problem, you will be able to start working toward the solution.
@@ -280,7 +278,7 @@ Here is an example of how you can use the `text-align` property to center align 
 ```html
 <div>
   <h2>This is a title</h2>
-  
+
   <p>This is some text in here</p>
 </div>
 ```
@@ -312,7 +310,7 @@ For more information, check: [W3C: Centering Things](https://www.w3.org/Style/Ex
   <summary>How do I center align HTML block elements?</summary>
   <br>
 
-  To center align a block-level element, such as a `div`, `h1`, etc., you can use the `margin` property and set it to `auto`. This will center the element horizontally within its parent container. 
+  To center align a block-level element, such as a `div`, `h1`, etc., you can use the `margin` property and set it to `auto`. This will center the element horizontally within its parent container.
 
 Here is an example of how you can do this:
 
@@ -401,7 +399,7 @@ This will center the image horizontally within the parent `section` element. The
 <details>
   <summary>How can I center align elements within a Flexbox container?</summary>
   <br>
-To center align elements within a Flexbox parent container, you can use the `justify-content` property and set it to `center`. This will horizontally center the elements within the Flexbox container. 
+To center align elements within a Flexbox parent container, you can use the `justify-content` property and set it to `center`. This will horizontally center the elements within the Flexbox container.
 
 **Example:**
 
@@ -442,9 +440,9 @@ For more information and an interactive Flexbox guide, check: [An Interactive Gu
 
   To change the header of an HTML page from having one column to having two columns using Flexbox, you should do the following in your CSS:
 
-1.  Use the `display` property and set it to `flex`. 
-2.  Add the `flex-direction` property and set it to `column` to arrange the elements in a column. 
-3.  Add the `justify-content` property to align the elements horizontally 
+1.  Use the `display` property and set it to `flex`.
+2.  Add the `flex-direction` property and set it to `column` to arrange the elements in a column.
+3.  Add the `justify-content` property to align the elements horizontally
 4.  Use the `align-items` property to align them vertically.
 
 ```css
@@ -509,12 +507,12 @@ There are a couple of possible reasons why you may be unable to *push* changes t
   git commit -m "Your commit message"
   git push
   ```
-2. **You do not have permission to push to the repository:** If you have cloned the repository directly from the main Ironhack repository without making a *Fork* first, you do not have write access to the repository.
+2. **You do not have permission to push to the repository:** If you have cloned the repository directly from our bootcamp repository without making a *Fork* first, you do not have write access to the repository.
 To check which remote repository you have cloned, run the following terminal command from the project folder:
   ```bash
   git remote -v
   ```
-If the link shown is the same as the main Ironhack repository, you will need to fork the repository to your GitHub account first and then clone your fork to your local machine to be able to push the changes.
+If the link shown is the same as the bootcamp repository, you will need to fork the repository to your GitHub account first and then clone your fork to your local machine to be able to push the changes.
 
 **Note**: You should make a copy of your local code to avoid losing it in the process.
 
