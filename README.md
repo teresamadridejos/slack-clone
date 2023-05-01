@@ -54,7 +54,10 @@ The `starter_code` folder contains all the files you'll need. The `images` folde
 During each iteration, the first step you should do is to inspect the provided screenshots. These are included in each iteration, along with a preview of the final result. Use these as a starting point for implementing your styles.
 
 
-## Iteration 0 | Introduction to Figma
+<!--
+
+
+### Iteration 0 | Introduction to Figma
 
 The first step during every iteration will be to inspect the design files. These were created using Figma and are usually handed off to developers by designers. [Figma](https://www.figma.com/) is a web-based UI (User Interface) design tool used for creating design prototypes for websites and applications.
 
