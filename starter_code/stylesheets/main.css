@@ -56,6 +56,15 @@
     width: 130px;
   }
 
+  main p {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  main a {
+    color: #2E71A6;
+  }
+
 .main-blue img {
   max-width: 95%;
   height: auto;
@@ -71,18 +80,12 @@
 .main-yellow img {
   max-width: 95%;
   height: auto;
-  margin: 15px auto;
+  margin: 85px auto 40px ;
 }
 
-.team-together{
+.main-text{
   margin: auto 15px;
 }
 
-.team-together p {
-  font-size: 18px;
-  letter-spacing: 1px;
-}
 
-.team-together a {
-  color: #2E71A6;
-}
+
