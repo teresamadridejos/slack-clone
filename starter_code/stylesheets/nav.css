@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #540b51;
+  margin: 0;
+  padding: 20px;
+  height: auto;
+  display: flex;
+}
+
+nav img {
+  width: 100px;
+}
+
+button img {
+  width: 25px;
+}
+
+.search,
+.menu {
+  background-color: #540b51;
+  border-style: none;
+
+}

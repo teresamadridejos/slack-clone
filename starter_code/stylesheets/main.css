@@ -1,0 +1,88 @@
+  .companies {
+    margin: 40px 0px;
+  }
+
+  .companies p {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+  .companies-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .companies-logos1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .companies-logos2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  #airbnb {
+    width: 100px;
+  }
+
+  #nasa {
+    width: 70px;
+  }
+
+  #uber {
+    width: 80px;
+  }
+
+  #target {
+    width: 50px;
+  }
+
+  #nyt {
+    width: 220px;
+  }
+
+  #spotify {
+    width: 130px;
+  }
+
+.main-blue img {
+  max-width: 95%;
+  height: auto;
+  margin: 15px auto;
+}
+
+.main-green img {
+  max-width: 100%;
+  height: auto;
+  margin: 55px auto 25px 15px;
+}
+
+.main-yellow img {
+  max-width: 95%;
+  height: auto;
+  margin: 15px auto;
+}
+
+.team-together{
+  margin: auto 15px;
+}
+
+.team-together p {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.team-together a {
+  color: #2E71A6;
+}
